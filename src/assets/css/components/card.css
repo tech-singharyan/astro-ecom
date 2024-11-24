@@ -1,0 +1,56 @@
+.cardiv{
+   
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    border-radius: 15px;
+    height: 325px;
+    width: 20%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+.cardicon{
+    border: 2px solid red;
+    height: 150px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.cardpara{
+    color: white;
+}
+
+.textarea{
+    color: white;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.actionButton {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cardOverlay {
+    background-color: none;
+    background: linear-gradient(to top, #00000030 70%, #00000010 100%);
+    box-Shadow: 0px 1px 2px 0px #33415614;
+
+}

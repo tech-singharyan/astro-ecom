@@ -1,0 +1,41 @@
+.banner{
+    height: 538px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('./../../image/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.text{
+    height: 225px;
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    /*padding-left: 160px;
+    padding-right: 160px;
+    border: 3px solid red;*/
+}
+
+.text h2{
+    padding-top: 100px;
+}
+.text p{
+    
+    margin-left:290px;
+    margin-right:290px ;
+    padding-left: 225px;
+    padding-right: 225px;
+    
+}
+.text button{
+    width: 60px;
+    background-color:#282b2e1a ;
+     
+}

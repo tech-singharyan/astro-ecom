@@ -1,0 +1,17 @@
+.cardContainer{   
+    width: 70%;
+    height: 510px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.cardiv{
+   
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

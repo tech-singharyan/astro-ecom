@@ -1,0 +1,43 @@
+.innerContainer {
+    background: #0F172A;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.innerContainer h4 {
+    margin: 0px;
+}
+
+.innerContainer ul {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.iconContainer {
+    gap: 1rem;
+    display: flex;
+    color: white;
+}
+
+.searchbar {
+    background: #94A3B81A;
+    border-radius: 6px;
+}
+
+.searchbar  input{
+    background: #94A3B81A;
+    border: none;
+}
+
+.searchbar input:focus {
+    border: none;
+}
