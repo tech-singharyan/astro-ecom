@@ -1,5 +1,5 @@
 import React from "react";
-import "./../assets/css/components/navbar.css";
+import "../../assets/css/components/navbar.css";
 import { FaOpencart, FaSearch } from "react-icons/fa";
 import { IoMdHeart } from "react-icons/io";
 import { WiMoonAltWaningGibbous3 } from "react-icons/wi";
